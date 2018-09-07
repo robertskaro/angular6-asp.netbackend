@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav>\r\n  <a routerLink=\"/\">Dashboard</a>\r\n  <a routerLink=\"/some/dude\">Some Dude</a>\r\n</nav>\r\n\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "<nav>\r\n  <a routerLink=\"/\">Dashboard</a><br />\r\n  <a routerLink=\"/cool\">Cool Component</a>\r\n</nav>\r\n\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
@@ -109,7 +109,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var routes = [
     { path: '', component: _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"] },
-    { path: 'some/dude', component: _cool_component_cool_component_component__WEBPACK_IMPORTED_MODULE_3__["CoolComponentComponent"] },
+    { path: 'cool', component: _cool_component_cool_component_component__WEBPACK_IMPORTED_MODULE_3__["CoolComponentComponent"] },
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -258,7 +258,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\robi\Desktop\angular with razor\WebApplication1\my-app\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\robi\Desktop\aaa\angular6-asp.netbackend\WebApplication1\my-app\src\main.ts */"./src/main.ts");
 
 
 /***/ })

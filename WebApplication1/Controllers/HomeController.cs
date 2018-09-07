@@ -17,10 +17,10 @@ namespace WebApplication1.Controllers
             return View(rootViewPath);
         }
 
-        [Route("some/dude")]
+        [Route("cool")]
         public IActionResult somedude()
         {
-            AppendHeaderValues("someDude");
+            AppendHeaderValues("cool");
             return View(rootViewPath);
         }
 
