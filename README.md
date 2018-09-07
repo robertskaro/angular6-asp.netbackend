@@ -1,6 +1,6 @@
 #my-app folder
 
-ng install
+npm install
 
 ng build
 
